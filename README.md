@@ -3,5 +3,8 @@ Dataset:  The dataset which is used in this project is collected from the intern
 Summary:  Various telecom companies are coming with various approaches to predict the churned customer in an early stage. Traditionally, various machine learning approaches like Decision tree, Random Forest, Bagging; deep learning-based approaches like CNN, RNN, etc. were applied to predict churned customers. This project is based on an Ordinary Neural Network (ONN) to predict the churned customer.
 The dataset consists of 50,000 instances where only 3,672 (only 7.3%) churned customers. In this project, all the 230 features was considered and all null values converted to zero. Out of 230 feature variables, there were 12% feature variables where more than 85% of data were null. Lower churned customer rate (only 7.3%) and lots of null data can be considered as a reason for the low True Positive Rate. Despite these, considering the excellent accuracy rate (91.65%), the proposed model could be integrated into another system to predict and prevent churn and similar types of problems.
 
+
+![confusion_matrix](https://user-images.githubusercontent.com/4210955/109890130-bf173b80-7c54-11eb-851d-134a1fc74e98.png)
+
 Out of total of 1455 churned subscribers, the model accurately classified 56 churned subscribers. So, True Positive (TP) is 56. Therefore, a sensitivity (True Positive Rate) of 3.85% was obtained. Again, 18,545 subscribers did not churn out, and the predictive model accurately classified 18,274 of them, so True Negative (TN) is 18,274 and which gives the specificity (True Negative Rate) of 98.54%. Overall, the model’s accuracy was approximately 91.65% .
 
